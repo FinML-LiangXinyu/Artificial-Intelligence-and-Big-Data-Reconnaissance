@@ -8,6 +8,7 @@ from agentscope.tool import Toolkit, Bash
 from agentscope.permission import PermissionMode
 import asyncio
 
+# LLM 使用 DeepSeek 开发的 deepseek-v4-flash 
 playwrightAgent = Agent(
     name = "Playwright Agent",
     system_prompt = "You are a browser-auto agent,"
